@@ -31,7 +31,7 @@ class EloquentVueTables implements VueTablesInterface
         $results = $data->get()->toArray();
 
         return [
-            'data' => $results,
+            'data'  => $results,
             'count' => $count,
         ];
     }

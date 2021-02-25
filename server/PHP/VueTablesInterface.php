@@ -1,12 +1,11 @@
 <?php
 /**
- *  VueTables server-side component interface
+ *  VueTables server-side component interface.
  */
 
 namespace App\Services\VueTables;
 
-interface VueTablesInterface {
-
+interface VueTablesInterface
+{
     public function get($table, array $fields);
-
 }
